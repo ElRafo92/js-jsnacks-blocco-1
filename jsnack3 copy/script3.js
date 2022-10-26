@@ -1,7 +1,10 @@
-for (i=0; i<11; i++) {
-    let parola = prompt("scrivi un numero");
+
+let amount = 0;
+
+for (i=0; i<3; i++) {
+    const parola = Number(prompt("scrivi un numero"));
+    amount = amount + parola;
     
-    
+   
 }
-parola = i+i
-console.log(parola)
+console.log(amount)
