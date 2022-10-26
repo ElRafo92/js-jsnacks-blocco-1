@@ -1,9 +1,9 @@
-let numeriPari = [];
+let numeriDispari = [];
 
 for (i=0; i<6; i++) {
     let number=Number(prompt("inserisci un numero"));
-    if (number % 2 === 0) {
-        numeriPari.push(number);
-        console.log(numeriPari);
+    if (number % 2 === 1) {
+        numeriDispari.push(number);
     }
 }
+console.log(numeriDispari);
